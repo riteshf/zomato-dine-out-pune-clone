@@ -12,4 +12,23 @@
 
 5. npm start
 
+## Understanding Component Structure
+
+- App
+  - Navbar
+    - ComboSearch
+      - Location
+      - Search
+  - Header
+    - Breadcrums
+      - Breadcrum
+  - Options
+    - Tabs
+      - Tab
+    - Option
+  - Restaurants
+    - Filters
+      - FilterButton
+    - Restaurant
+
 ## Features
