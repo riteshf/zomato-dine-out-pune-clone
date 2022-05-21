@@ -1,0 +1,39 @@
+{
+  "options": [
+    {
+      "label": "Delivery",
+      "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/tabs/delivery.png"
+    },
+    {
+      "label": "Dining Out",
+      "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/tabs/dine-out.png",
+      "collections": [
+        {
+          "label": "Live Cricket Screening",
+          "placesCount": 37,
+          "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/live-cricket.jpg"
+        },
+        {
+          "label": "Newly Opened",
+          "placesCount": 21,
+          "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/newly-open.jpg"
+        },
+        {
+          "label": "Trending This Week",
+          "placesCount": 30,
+          "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/trends-this-week.jpg"
+        },
+        {
+          "label": "Best of Pune",
+          "placesCount": 94,
+          "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/best-of-pune.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Nightlife",
+      "icon": "https://raw.githubusercontent.com/riteshf/zomato-dine-out-pune-clone/main/src/assets/collections/tabs/night-life.png",
+      "collections": []
+    }
+  ]
+}
