@@ -9,6 +9,10 @@
 3. npm install
 4. npm start
 
+## Understand Page
+
+![](./assignment/part1.png)
+
 ## Understanding Component Structure
 
 - [App](./src/App.js)
@@ -41,16 +45,23 @@
 
 ## Features to build
 
-1. Make sure `Location` Dropdown works and give you the same option
-2. `Search` should filter the restuarant by `restaurant.name`, case insensentive search.
-3. User should be able to select only one `Tabs` from `Options`.
-4. `Filters` and `FilterButton` should be able to filter data with `Search` Feature.
-5. `FilterButton` should filter as follows.
+1. `Navbar` Should be Sticky to top of page
+2. Make sure `Location` Dropdown works and give you the same option
+3. `Search` should filter the restuarant by `restaurant.name`, case insensentive search.
+4. User should be able to select only one `Tabs` from `Options`.
+   - Default `Dining Out` should be selected.
+5. `Filters` and `FilterButton` should be able to filter data with `Search` Feature.
+6. `FilterButton` should filter as follows.
    - rating 4+ : Shows only restuarant with rating above 4.
    - open now : shows restuarant that are open now.
    - outdoor seating: shows restaurants that has outdoor seating.
    - searves alcohol - shows restaurant that serves alcohol.
-6. We should be able to Select multiple `FilterButton`.
-7. By clicking on same `FilterButton` twice should de-select that FilterButton.
+7. We should be able to Select multiple `FilterButton`.
+8. By clicking on same `FilterButton` twice should de-select that FilterButton.
 
 **Note** - `Make sure you implelement features one by one and deploy the app correctly`
+
+## General Instructions (**_IMPORTANT_**)
+
+1. Do not use Global CSS, instead use `<componentName>.module.css` convention.
+2. Do Not Remove `data-cy="xxxx"` from anywhere, this are used by testing tools to test your code, removal of this will lead to low score.

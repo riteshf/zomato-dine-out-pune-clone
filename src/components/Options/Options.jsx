@@ -1,7 +1,7 @@
 import React from "react";
 
 const Options = () => {
-  return <div>Options</div>;
+  return <div data-cy="options">Options</div>;
 };
 
 export default Options;

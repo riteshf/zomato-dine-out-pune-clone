@@ -1,7 +1,7 @@
 import React from "react";
 
 const TabOption = () => {
-  return <div>TabOption</div>;
+  return <div data-cy="tab-option">TabOption</div>;
 };
 
 export default TabOption;

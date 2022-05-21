@@ -1,7 +1,7 @@
 import React from "react";
 
 const Breadcrum = () => {
-  return <div>Breadcrum</div>;
+  return <div data-cy="breadcrum">Breadcrum</div>;
 };
 
 export default Breadcrum;
