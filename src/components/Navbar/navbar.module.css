@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  position: static;
+  height: 7.2rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  top: 0px;
+  transition: opacity 0.25s linear 0s,
+    height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1) 0s;
+  background-color: transparent;
+  margin-bottom: 1.2rem;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 110rem;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+
+.logo {
+  max-width: 14rem;
+  height: 2.7rem;
+  display: block;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.logIn {
+  padding-bottom: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px 0px 0.2rem;
+  margin-right: 2rem;
+}
+
+.signIn {
+  padding-bottom: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px 0px 0.2rem;
+}

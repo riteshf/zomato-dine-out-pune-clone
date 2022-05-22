@@ -1,7 +1,7 @@
 import React from "react";
 
-const Tab = () => {
-  return <div data-cy="tab">Tab</div>;
+const Tab = ({ children }) => {
+  return <div data-cy="tab">{children}</div>;
 };
 
 export default Tab;

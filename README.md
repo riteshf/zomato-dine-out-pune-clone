@@ -45,7 +45,8 @@
 
 ## Features to build
 
-1. `Navbar` Should be Sticky to top of page
+1. `Tabs` Should be Sticky to top of page
+   - When Scrolled below `Filters` filters should be sticky.
 2. Make sure `Location` Dropdown works and give you the same option
 3. `Search` should filter the restuarant by `restaurant.name`, case insensentive search.
 4. User should be able to select only one `Tabs` from `Options`.
